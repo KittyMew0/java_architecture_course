@@ -3,8 +3,6 @@ package org.example.automobilefunctions;
 import java.awt.*;
 
 public class Main {
-    // нужно было добавить... мойку и что то еще,
-    // вроде сделано, ндао чекнуть
     public static void main(String[] args) {
         Harvester harvester = new Harvester("A", "b", Color.BLACK);
 
