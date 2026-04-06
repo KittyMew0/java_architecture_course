@@ -1,0 +1,8 @@
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.AssemblyInfoInputs.cache
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.AssemblyInfo.cs
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.RazorAssemblyInfo.cache
+C:\Users\Мышь\Desktop\archi\lesson7\SPASample\SpaWebApplication\obj\Debug\net8.0\SpaWebApplication.RazorAssemblyInfo.cs

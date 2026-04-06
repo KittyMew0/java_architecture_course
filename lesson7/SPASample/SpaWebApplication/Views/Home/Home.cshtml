@@ -1,0 +1,30 @@
+﻿@model List<SpaWebApplication.Models.Employee>;
+
+<div class="page-container">
+    <h1 style="align-self: center;">Home</h1>
+    <p>Main application page.</p>
+
+    <button type="button" class="btn btn-primary">add new</button>
+    <table class="table">
+
+           @* дз - сделать что то очень похожее. наверно. возможно поищи в презентации? *@
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var employee in Model)
+            {
+                <tr>
+                    <th scope="row">@employee.Id</th>
+                    <td>@employee.Name</td>
+                    <td>@employee.Age</td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+</div>

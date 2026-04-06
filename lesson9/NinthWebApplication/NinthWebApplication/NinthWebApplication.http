@@ -1,0 +1,6 @@
+@NinthWebApplication_HostAddress = http://localhost:5182
+
+GET {{NinthWebApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

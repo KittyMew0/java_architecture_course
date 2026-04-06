@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson10\\clinicservice\\clinicservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|solutionrelative:clinicservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson10\\clinicservice\\clinicservice\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|solutionrelative:clinicservice\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson10\\clinicservice\\clinicservice\\clinicservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|solutionrelative:clinicservice\\clinicservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson10\\clinicservice\\clinicservice\\services\\impl\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A52E504-F38E-4448-BF97-177D3D0589ED}|ClinicService\\ClinicService.csproj|solutionrelative:clinicservice\\services\\impl\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ClinicService\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\Models\\Client.cs",
+              "RelativeToolTip": "ClinicService\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:36:12.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\Services\\Impl\\IRepository.cs",
+              "RelativeDocumentMoniker": "ClinicService\\Services\\Impl\\IRepository.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\Services\\Impl\\IRepository.cs",
+              "RelativeToolTip": "ClinicService\\Services\\Impl\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:35:17.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClinicService",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\ClinicService.csproj",
+              "RelativeDocumentMoniker": "ClinicService\\ClinicService.csproj",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\ClinicService.csproj",
+              "RelativeToolTip": "ClinicService\\ClinicService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-30T17:34:24.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicService\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson10\\ClinicService\\ClinicService\\Program.cs",
+              "RelativeToolTip": "ClinicService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:07:44.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
