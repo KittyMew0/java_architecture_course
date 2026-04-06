@@ -7,7 +7,6 @@ namespace ClinicService
 {
     public class Program
 
-        // дз - че то доделать
     {
 
         // https://sqlitestudio.pl/
