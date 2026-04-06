@@ -8,8 +8,6 @@ import org.example.views.BookingView;
 
 import java.util.Date;
 
-// дз - добавить какие то методы - change reservation whatever
-
 public class Main {
     public static void main(String[] args) {
         View view = new BookingView();
