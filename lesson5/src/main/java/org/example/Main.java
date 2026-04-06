@@ -8,8 +8,6 @@ public class Main {
         Editor3D editor3D = new Editor3D();
         boolean f = true;
 
-        // дз: удалить модель
-        // короче удалить, добавить текстуру, и удалить тож самое
         while (f){
             System.out.println("** МОЙ 3D РЕДАКТОР ***");
             System.out.println("------------------");
