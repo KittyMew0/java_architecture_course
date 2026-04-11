@@ -1,0 +1,671 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ClinicService API",
+    "description": "API для управления ветеринарной клиникой",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Support",
+      "email": "support@clinic.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5076",
+      "description": "Development server"
+    }
+  ],
+  "paths": {
+    "/api/Client/create": {
+      "post": {
+        "tags": [ "Client" ],
+        "summary": "Создание нового клиента",
+        "operationId": "ClientCreate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateClientRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateClientRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешное создание клиента",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "description": "ID созданного клиента"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Неверный запрос"
+          },
+          "500": {
+            "description": "Внутренняя ошибка сервера"
+          }
+        }
+      }
+    },
+    "/api/Client/update": {
+      "put": {
+        "tags": [ "Client" ],
+        "summary": "Обновление данных клиента",
+        "operationId": "ClientUpdate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateClientRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешное обновление",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "description": "Количество затронутых записей"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Клиент не найден"
+          }
+        }
+      }
+    },
+    "/api/Client/delete": {
+      "delete": {
+        "tags": [ "Client" ],
+        "summary": "Удаление клиента",
+        "operationId": "ClientDelete",
+        "parameters": [
+          {
+            "name": "clientId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "description": "ID клиента"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешное удаление",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Клиент не найден"
+          }
+        }
+      }
+    },
+    "/api/Client/get-all": {
+      "get": {
+        "tags": [ "Client" ],
+        "summary": "Получение списка всех клиентов",
+        "operationId": "ClientGetAll",
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ClientResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Client/get/{clientId}": {
+      "get": {
+        "tags": [ "Client" ],
+        "summary": "Получение клиента по ID",
+        "operationId": "ClientGetById",
+        "parameters": [
+          {
+            "name": "clientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "description": "ID клиента"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClientResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Клиент не найден"
+          }
+        }
+      }
+    },
+    "/api/Pet/create": {
+      "post": {
+        "tags": [ "Pet" ],
+        "summary": "Создание нового питомца",
+        "operationId": "PetCreate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePetRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешное создание",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pet/update": {
+      "put": {
+        "tags": [ "Pet" ],
+        "summary": "Обновление данных питомца",
+        "operationId": "PetUpdate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePetRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешное обновление"
+          }
+        }
+      }
+    },
+    "/api/Pet/delete": {
+      "delete": {
+        "tags": [ "Pet" ],
+        "summary": "Удаление питомца",
+        "operationId": "PetDelete",
+        "parameters": [
+          {
+            "name": "petId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешное удаление"
+          }
+        }
+      }
+    },
+    "/api/Pet/get-all": {
+      "get": {
+        "tags": [ "Pet" ],
+        "summary": "Получение списка всех питомцев",
+        "operationId": "PetGetAll",
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PetResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pet/get/{petId}": {
+      "get": {
+        "tags": [ "Pet" ],
+        "summary": "Получение питомца по ID",
+        "operationId": "PetGetById",
+        "parameters": [
+          {
+            "name": "petId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PetResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Pet/get-by-client/{clientId}": {
+      "get": {
+        "tags": [ "Pet" ],
+        "summary": "Получение питомцев по ID клиента",
+        "operationId": "PetGetByClientId",
+        "parameters": [
+          {
+            "name": "clientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PetResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Consultation/create": {
+      "post": {
+        "tags": [ "Consultation" ],
+        "summary": "Создание новой консультации",
+        "operationId": "ConsultationCreate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateConsultationRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешное создание"
+          }
+        }
+      }
+    },
+    "/api/Consultation/update": {
+      "put": {
+        "tags": [ "Consultation" ],
+        "summary": "Обновление консультации",
+        "operationId": "ConsultationUpdate",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateConsultationRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешное обновление"
+          }
+        }
+      }
+    },
+    "/api/Consultation/delete": {
+      "delete": {
+        "tags": [ "Consultation" ],
+        "summary": "Удаление консультации",
+        "operationId": "ConsultationDelete",
+        "parameters": [
+          {
+            "name": "consultationId",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешное удаление"
+          }
+        }
+      }
+    },
+    "/api/Consultation/get-all": {
+      "get": {
+        "tags": [ "Consultation" ],
+        "summary": "Получение всех консультаций",
+        "operationId": "ConsultationGetAll",
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ConsultationResponse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Consultation/get/{consultationId}": {
+      "get": {
+        "tags": [ "Consultation" ],
+        "summary": "Получение консультации по ID",
+        "operationId": "ConsultationGetById",
+        "parameters": [
+          {
+            "name": "consultationId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешный запрос",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConsultationResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateClientRequest": {
+        "type": "object",
+        "properties": {
+          "document": {
+            "type": "string",
+            "description": "Паспортные данные"
+          },
+          "surName": {
+            "type": "string",
+            "description": "Фамилия"
+          },
+          "firstName": {
+            "type": "string",
+            "description": "Имя"
+          },
+          "patronymic": {
+            "type": "string",
+            "nullable": true,
+            "description": "Отчество"
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Дата рождения"
+          }
+        },
+        "required": [ "document", "surName", "firstName", "birthday" ]
+      },
+      "UpdateClientRequest": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32",
+            "description": "ID клиента"
+          },
+          "document": {
+            "type": "string"
+          },
+          "surName": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "patronymic": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [ "clientId", "document", "surName", "firstName", "birthday" ]
+      },
+      "ClientResponse": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "document": {
+            "type": "string"
+          },
+          "surName": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "patronymic": {
+            "type": "string",
+            "nullable": true
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "CreatePetRequest": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [ "clientId", "name", "birthday" ]
+      },
+      "UpdatePetRequest": {
+        "type": "object",
+        "properties": {
+          "petId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [ "petId", "clientId", "name", "birthday" ]
+      },
+      "PetResponse": {
+        "type": "object",
+        "properties": {
+          "petId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          },
+          "birthday": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "CreateConsultationRequest": {
+        "type": "object",
+        "properties": {
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "petId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "consultationDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [ "clientId", "petId", "consultationDate", "description" ]
+      },
+      "UpdateConsultationRequest": {
+        "type": "object",
+        "properties": {
+          "consultationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "petId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "consultationDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [ "consultationId", "clientId", "petId", "consultationDate", "description" ]
+      },
+      "ConsultationResponse": {
+        "type": "object",
+        "properties": {
+          "consultationId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "petId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "consultationDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

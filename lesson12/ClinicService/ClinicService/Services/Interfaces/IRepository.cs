@@ -2,16 +2,12 @@
 
 namespace ClinicService.Services.Interfaces
 {
-    public class IRepository<T, TId>
+    public interface IRepository<T, TId>
     {
-        
-int Create(T item);
-        
-int Update(T item);
+        int Create(T item);
+        int Update(T item);
         int Delete(TId id);
-        
-        T GetById(TId id);
-       
-        List < T > GetAll();
+        T? GetById(TId id); 
+        List<T> GetAll();
     }
 }
