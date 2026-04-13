@@ -1,0 +1,109 @@
+﻿@page "/login"
+@using RoboticVacuumCleaner.Web.Models
+@using RoboticVacuumCleaner.Web.Services
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+
+<PageTitle>Вход - Robot Cleaner</PageTitle>
+
+<div class="login-container">
+    <div class="login-card">
+        <div class="login-header">
+            <h1>Вход в систему</h1>
+            <p>Войдите в свой аккаунт для управления роботом</p>
+        </div>
+        
+        @if (Navigation.QueryString.ContainsKey("registered"))
+        {
+            <div class="alert alert-success">
+                Регистрация успешна! Пожалуйста, подтвердите email и войдите в систему.
+            </div>
+        }
+        
+        <EditForm Model="@loginModel" OnValidSubmit="@HandleLogin">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <InputText id="email" type="email" class="form-control" @bind-Value="loginModel.Email" />
+                <ValidationMessage For="@(() => loginModel.Email)" />
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <InputText id="password" type="password" class="form-control" @bind-Value="loginModel.Password" />
+                <ValidationMessage For="@(() => loginModel.Password)" />
+            </div>
+            
+            <div class="form-check">
+                <InputCheckbox id="rememberMe" class="form-check-input" @bind-Value="loginModel.RememberMe" />
+                <label class="form-check-label" for="rememberMe">Запомнить меня</label>
+            </div>
+            
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <div class="alert alert-danger">@errorMessage</div>
+            }
+            
+            @if (isLoading)
+            {
+                <button class="btn btn-primary btn-block" disabled>
+                    <span class="spinner-border spinner-border-sm"></span>
+                    Вход...
+                </button>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary btn-block">Войти</button>
+            }
+        </EditForm>
+        
+        <div class="login-footer">
+            <a href="/forgot-password">Забыли пароль?</a>
+            <p>Нет аккаунта? <a href="/register">Зарегистрироваться</a></p>
+        </div>
+    </div>
+</div>
+
+@code {
+    private LoginModel loginModel = new();
+    private string errorMessage = string.Empty;
+    private bool isLoading = false;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        if (await AuthService.IsAuthenticatedAsync())
+        {
+            Navigation.NavigateTo("/dashboard");
+        }
+    }
+    
+    private async Task HandleLogin()
+    {
+        isLoading = true;
+        errorMessage = string.Empty;
+        
+        try
+        {
+            var result = await AuthService.LoginAsync(loginModel);
+            
+            if (result.Success)
+            {
+                Navigation.NavigateTo("/dashboard");
+            }
+            else
+            {
+                errorMessage = result.Message ?? "Invalid email or password";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

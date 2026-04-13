@@ -1,0 +1,106 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+@inject IAuthService AuthService
+
+<PageTitle>Robot Cleaner</PageTitle>
+
+<div class="app">
+    <div class="sidebar">
+        <div class="logo">
+            <i class="fas fa-robot"></i>
+            <span>Robot Cleaner</span>
+        </div>
+        
+        <nav class="nav-menu">
+            <NavLink href="/dashboard" class="nav-item" Match="NavLinkMatch.All">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Дашборд</span>
+            </NavLink>
+            
+            <NavLink href="/robots" class="nav-item">
+                <i class="fas fa-microchip"></i>
+                <span>Мои роботы</span>
+            </NavLink>
+            
+            <NavLink href="/rooms" class="nav-item">
+                <i class="fas fa-home"></i>
+                <span>Помещения</span>
+            </NavLink>
+            
+            <NavLink href="/schedule" class="nav-item">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Расписание</span>
+            </NavLink>
+            
+            <NavLink href="/history" class="nav-item">
+                <i class="fas fa-history"></i>
+                <span>История уборок</span>
+            </NavLink>
+            
+            <NavLink href="/maintenance" class="nav-item">
+                <i class="fas fa-tools"></i>
+                <span>Обслуживание</span>
+            </NavLink>
+            
+            <NavLink href="/settings" class="nav-item">
+                <i class="fas fa-cog"></i>
+                <span>Настройки</span>
+            </NavLink>
+        </nav>
+        
+        <div class="user-info">
+            <div class="user-avatar">
+                @if (!string.IsNullOrEmpty(currentUser?.AvatarUrl))
+                {
+                    <img src="@currentUser.AvatarUrl" alt="Avatar" />
+                }
+                else
+                {
+                    <i class="fas fa-user-circle"></i>
+                }
+            </div>
+            <div class="user-details">
+                <div class="user-name">@currentUser?.FirstName @currentUser?.LastName</div>
+                <div class="user-email">@currentUser?.Email</div>
+            </div>
+            <button class="logout-btn" @onclick="Logout">
+                <i class="fas fa-sign-out-alt"></i>
+            </button>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="header">
+            <button class="menu-toggle" @onclick="ToggleMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="header-title">@PageTitle</div>
+        </div>
+        
+        <div class="content">
+            @Body
+        </div>
+    </div>
+</div>
+
+@code {
+    private UserDto? currentUser;
+    private bool isMenuOpen = true;
+    private string PageTitle => "Robot Cleaner";
+    
+    protected override async Task OnInitializedAsync()
+    {
+        currentUser = await AuthService.GetCurrentUserAsync();
+    }
+    
+    private void ToggleMenu()
+    {
+        isMenuOpen = !isMenuOpen;
+    }
+    
+    private async void Logout()
+    {
+        await AuthService.LogoutAsync();
+        Navigation.NavigateTo("/login");
+    }
+}

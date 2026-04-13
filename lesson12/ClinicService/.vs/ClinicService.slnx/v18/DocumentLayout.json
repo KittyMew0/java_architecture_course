@@ -3,6 +3,274 @@
   "WorkspaceRootPath": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\cleaningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\cleaningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\startcleaningrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\startcleaningrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\enums\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\enums\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\enums\\robotstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\enums\\robotstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\enums\\floortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\enums\\floortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\models\\enums\\cleaningmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\models\\enums\\cleaningmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\services\\robotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\services\\robotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\services\\interfaces\\irobotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\services\\interfaces\\irobotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\services\\localstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\services\\localstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\services\\interfaces\\ilocalstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\services\\interfaces\\ilocalstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\pages\\schedule.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\pages\\schedule.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\pages\\robots.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\pages\\robots.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\wwwroot\\icon-192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\wwwroot\\icon-192.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\wwwroot\\css\\schedule.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\wwwroot\\css\\schedule.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner.web\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{873BE8DA-A28C-4062-9C3D-E38F7DB0CFC7}|RoboticVacuumCleaner.Web\\RoboticVacuumCleaner.Web.csproj|solutionrelative:roboticvacuumcleaner.web\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\maintenancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\cleaningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\cleaningsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\enums\\maintenancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\enums\\maintenancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\enums\\robotstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\enums\\robotstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\enums\\floortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\enums\\floortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\models\\enums\\cleaningmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\models\\enums\\cleaningmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\refreshtokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\dtos\\registerrequest.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\dtos\\registerrequest.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\controllers\\startcleaningrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\controllers\\startcleaningrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\controllers\\robotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\controllers\\robotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\roboticvacuumcleaner\\roboticvacuumcleaner.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65B1171D-6AEB-4370-9D9F-12353275A4BA}|RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj|solutionrelative:roboticvacuumcleaner\\roboticvacuumcleaner.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E13DC31-0449-EBB1-0E0E-28EC42BF5424}|ClinicService\\ClinicService.csproj|c:\\users\\\u043C\u044B\u0448\u044C\\desktop\\archi\\lesson12\\clinicservice\\clinicservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E13DC31-0449-EBB1-0E0E-28EC42BF5424}|ClinicService\\ClinicService.csproj|solutionrelative:clinicservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -158,7 +426,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,7 +442,876 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Room.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:44:37.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CleaningSession.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\CleaningSession.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\CleaningSession.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\CleaningSession.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\CleaningSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:44:13.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\LoginModel.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:43:11.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T05:53:17.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Robot.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Robot.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Robot.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Robot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:05:38.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "StartCleaningRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\StartCleaningRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\StartCleaningRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\StartCleaningRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\StartCleaningRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:42:52.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\AuthResult.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Enums\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\AuthResult.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Enums\\AuthResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:42:30.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\UserDto.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:42:06.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RobotStatus.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\RobotStatus.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Enums\\RobotStatus.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\RobotStatus.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Enums\\RobotStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:41:49.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\RoomType.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Enums\\RoomType.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\RoomType.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Enums\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:41:28.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FloorType.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\FloorType.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Enums\\FloorType.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\FloorType.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Enums\\FloorType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:41:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CleaningMode.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\CleaningMode.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Models\\Enums\\CleaningMode.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Models\\Enums\\CleaningMode.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Models\\Enums\\CleaningMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:40:56.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RobotService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\RobotService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Services\\RobotService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\RobotService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Services\\RobotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:39:55.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRobotService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\Interfaces\\IRobotService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Services\\Interfaces\\IRobotService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\Interfaces\\IRobotService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Services\\Interfaces\\IRobotService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:04:10.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LocalStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\LocalStorageService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Services\\LocalStorageService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\LocalStorageService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Services\\LocalStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:39:22.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\AuthService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:49:26.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:36:46.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ILocalStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\Interfaces\\ILocalStorageService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Services\\Interfaces\\ILocalStorageService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Services\\Interfaces\\ILocalStorageService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Services\\Interfaces\\ILocalStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:08:32.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Robots.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Robots.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Pages\\Robots.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Robots.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Pages\\Robots.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T06:01:33.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Register.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T05:47:41.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Login.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T05:50:06.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Home.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T07:34:30.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Schedule.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Schedule.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Pages\\Schedule.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Schedule.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Pages\\Schedule.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAPUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T06:19:56.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T06:00:43.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\_Imports.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\_Imports.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\_Imports.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T07:32:57.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Program.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Program.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T03:47:58.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\index.html",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-13T06:03:10.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAK4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T06:01:05.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "icon-192.png - PNG [192x192, 8 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\icon-192.png",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\wwwroot\\icon-192.png",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\icon-192.png - PNG [192x192, 8 bit, PNG]",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\wwwroot\\icon-192.png - PNG [192x192, 8 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-04-13T07:32:14.451Z",
+              "EditorCaption": " - PNG [192x192, 8 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "auth.css",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\auth.css",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\wwwroot\\css\\auth.css",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\auth.css",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\wwwroot\\css\\auth.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-13T05:52:01.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\wwwroot\\css\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-13T07:24:01.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\App.razor",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\App.razor",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\App.razor",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-13T06:23:31.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Program.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Program.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Program.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:47:22.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\appsettings.json",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\appsettings.json",
+              "RelativeToolTip": "RoboticVacuumCleaner\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T07:23:11.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\AuthService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:06:18.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAAAMsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-13T06:01:59.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "schedule.css",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\schedule.css",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner.Web\\wwwroot\\css\\schedule.css",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner.Web\\wwwroot\\css\\schedule.css",
+              "RelativeToolTip": "RoboticVacuumCleaner.Web\\wwwroot\\css\\schedule.css",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-13T06:20:49.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:13:32.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:13:02.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\User.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T12:56:09.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Schedule.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Schedule.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:17:14.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Services\\EmailService.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:12:01.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Room.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:01:50.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Robot.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Robot.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Robot.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Robot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:01:03.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MaintenanceRecord.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\MaintenanceRecord.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\MaintenanceRecord.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\MaintenanceRecord.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\MaintenanceRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:43:18.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CleaningSession.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\CleaningSession.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\CleaningSession.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\CleaningSession.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\CleaningSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:03:09.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "MaintenanceType.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\MaintenanceType.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Enums\\MaintenanceType.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\MaintenanceType.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Enums\\MaintenanceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:09:05.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\RoomType.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Enums\\RoomType.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\RoomType.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Enums\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:15:55.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RobotStatus.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\RobotStatus.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Enums\\RobotStatus.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\RobotStatus.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Enums\\RobotStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:14:26.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "FloorType.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\FloorType.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Enums\\FloorType.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\FloorType.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Enums\\FloorType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:16:12.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CleaningMode.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\CleaningMode.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Models\\Enums\\CleaningMode.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Models\\Enums\\CleaningMode.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Models\\Enums\\CleaningMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T13:14:51.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\ChangePasswordRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:53:01.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\RefreshTokenRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\RefreshTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:52:46.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:53:31.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:55:52.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:53:19.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\AuthResponse.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:53:42.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:53:58.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:52:29.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RefreshToken.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:54:11.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:51:56.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "StartCleaningRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Controllers\\StartCleaningRequest.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Controllers\\StartCleaningRequest.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Controllers\\StartCleaningRequest.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Controllers\\StartCleaningRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:34:57.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:44:36.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "RobotsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Controllers\\RobotsController.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Controllers\\RobotsController.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Controllers\\RobotsController.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Controllers\\RobotsController.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAIwK0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:46:41.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T18:15:47.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RoboticVacuumCleaner\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-13T03:40:37.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RoboticVacuumCleaner.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj",
+              "RelativeDocumentMoniker": "RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj",
+              "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj",
+              "RelativeToolTip": "RoboticVacuumCleaner\\RoboticVacuumCleaner.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-12T12:55:12.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Repositories\\ClientRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Repositories\\ClientRepository.cs",
@@ -182,12 +1319,11 @@
               "RelativeToolTip": "ClinicService\\Services\\Repositories\\ClientRepository.cs",
               "ViewState": "AgIAAOEAAAAAAAAAAAAIwPIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:16:22.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T06:16:22.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 71,
               "Title": "ConsultationRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Repositories\\ConsultationRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Repositories\\ConsultationRepository.cs",
@@ -195,12 +1331,11 @@
               "RelativeToolTip": "ClinicService\\Services\\Repositories\\ConsultationRepository.cs",
               "ViewState": "AgIAANkAAAAAAAAAAAAiwAcBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T05:22:47.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T05:22:47.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 70,
               "Title": "PetRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Repositories\\PetRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Repositories\\PetRepository.cs",
@@ -208,12 +1343,11 @@
               "RelativeToolTip": "ClinicService\\Services\\Repositories\\PetRepository.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAcwPsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T05:22:27.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T05:22:27.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 69,
               "Title": "ClinicClient.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\ClinicClient.cs",
               "RelativeDocumentMoniker": "ClinicService\\ClinicClient.cs",
@@ -221,12 +1355,11 @@
               "RelativeToolTip": "ClinicService\\ClinicClient.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwHkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T15:29:34.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T15:29:34.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 68,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Form1.cs",
               "RelativeDocumentMoniker": "ClinicService\\Form1.cs",
@@ -234,12 +1367,11 @@
               "RelativeToolTip": "ClinicService\\Form1.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAswPAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T02:29:56.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T02:29:56.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 67,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Program.cs",
               "RelativeDocumentMoniker": "ClinicService\\Program.cs",
@@ -247,25 +1379,23 @@
               "RelativeToolTip": "ClinicService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T17:07:44.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T17:07:44.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 73,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Interfaces\\IRepository.cs",
               "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "ClinicService\\Services\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T17:35:17.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T17:35:17.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 74,
               "Title": "IPetRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Interfaces\\IPetRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Interfaces\\IPetRepository.cs",
@@ -273,12 +1403,11 @@
               "RelativeToolTip": "ClinicService\\Services\\Interfaces\\IPetRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:12:27.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T06:12:27.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 75,
               "Title": "IConsultationRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Interfaces\\IConsultationRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Interfaces\\IConsultationRepository.cs",
@@ -286,12 +1415,11 @@
               "RelativeToolTip": "ClinicService\\Services\\Interfaces\\IConsultationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:12:52.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T06:12:52.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 76,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Interfaces\\IClientRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Interfaces\\IClientRepository.cs",
@@ -299,12 +1427,11 @@
               "RelativeToolTip": "ClinicService\\Services\\Interfaces\\IClientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:43:38.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T05:43:38.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 77,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Client.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Client.cs",
@@ -312,12 +1439,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Client.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T17:36:12.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T17:36:12.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 78,
               "Title": "PetController.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Controllers\\PetController.cs",
               "RelativeDocumentMoniker": "ClinicService\\Controllers\\PetController.cs",
@@ -325,25 +1451,23 @@
               "RelativeToolTip": "ClinicService\\Controllers\\PetController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAgwJkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T09:41:33.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T09:41:33.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 79,
               "Title": "ConsultationController.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Controllers\\ConsultationController.cs",
               "RelativeDocumentMoniker": "ClinicService\\Controllers\\ConsultationController.cs",
               "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Controllers\\ConsultationController.cs",
               "RelativeToolTip": "ClinicService\\Controllers\\ConsultationController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA1wLEAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwLEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T09:42:12.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T09:42:12.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 80,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "ClinicService\\Controllers\\ClientController.cs",
@@ -351,12 +1475,11 @@
               "RelativeToolTip": "ClinicService\\Controllers\\ClientController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T07:26:31.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T07:26:31.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 81,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ClinicService\\Properties\\launchSettings.json",
@@ -364,12 +1487,11 @@
               "RelativeToolTip": "ClinicService\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-11T15:32:38.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T15:32:38.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 82,
               "Title": "InMemoryClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Services\\Impl\\InMemoryClientRepository.cs",
               "RelativeDocumentMoniker": "ClinicService\\Services\\Impl\\InMemoryClientRepository.cs",
@@ -377,25 +1499,23 @@
               "RelativeToolTip": "ClinicService\\Services\\Impl\\InMemoryClientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:25:28.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T06:25:28.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 83,
               "Title": "swagger.json",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\OpenAPIs\\swagger.json",
               "RelativeDocumentMoniker": "ClinicService\\OpenAPIs\\swagger.json",
               "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\OpenAPIs\\swagger.json",
               "RelativeToolTip": "ClinicService\\OpenAPIs\\swagger.json",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAIwAAAAAAAAAAABRwAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-10T05:38:46.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T05:38:46.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 84,
               "Title": "Pet.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Pet.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Pet.cs",
@@ -403,12 +1523,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Pet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:26:06.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T05:26:06.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 85,
               "Title": "Consultation.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Consultation.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Consultation.cs",
@@ -416,12 +1535,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Consultation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T05:27:36.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T05:27:36.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 86,
               "Title": "PetResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Responses\\PetResponse.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Responses\\PetResponse.cs",
@@ -429,12 +1547,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Responses\\PetResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:26:47.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:26:47.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 87,
               "Title": "ConsultationResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Responses\\ConsultationResponse.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Responses\\ConsultationResponse.cs",
@@ -442,12 +1559,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Responses\\ConsultationResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:27:45.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:27:45.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 88,
               "Title": "ClientResponse.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Responses\\ClientResponse.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Responses\\ClientResponse.cs",
@@ -455,12 +1571,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Responses\\ClientResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:26:31.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:26:31.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 89,
               "Title": "UpdatePetRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Requests\\UpdatePetRequest.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Requests\\UpdatePetRequest.cs",
@@ -468,12 +1583,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Requests\\UpdatePetRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:23:33.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:23:33.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 90,
               "Title": "UpdateConsultationRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Requests\\UpdateConsultationRequest.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Requests\\UpdateConsultationRequest.cs",
@@ -481,12 +1595,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Requests\\UpdateConsultationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:25:57.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:25:57.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 91,
               "Title": "UpdateClientRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Requests\\UpdateClientRequest.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Requests\\UpdateClientRequest.cs",
@@ -494,12 +1607,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Requests\\UpdateClientRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T10:57:33.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T10:57:33.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 92,
               "Title": "CreatePetRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Requests\\CreatePetRequest.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Requests\\CreatePetRequest.cs",
@@ -507,12 +1619,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Requests\\CreatePetRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:23:00.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:23:00.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 93,
               "Title": "CreateConsultationRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Requests\\CreateConsultationRequest.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Requests\\CreateConsultationRequest.cs",
@@ -520,12 +1631,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Requests\\CreateConsultationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T17:25:09.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T17:25:09.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 94,
               "Title": "CreateClientRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\Models\\Requests\\CreateClientRequest.cs",
               "RelativeDocumentMoniker": "ClinicService\\Models\\Requests\\CreateClientRequest.cs",
@@ -533,12 +1643,11 @@
               "RelativeToolTip": "ClinicService\\Models\\Requests\\CreateClientRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T10:56:15.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T10:56:15.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 95,
               "Title": "ClientControllerTest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Controllers\\ClientControllerTest.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\Controllers\\ClientControllerTest.cs",
@@ -546,12 +1655,11 @@
               "RelativeToolTip": "ClinicService.Tests\\Controllers\\ClientControllerTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T16:15:16.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T16:15:16.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 96,
               "Title": "ApiIntegrationTests.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Integration\\ApiIntegrationTests.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\Integration\\ApiIntegrationTests.cs",
@@ -559,12 +1667,11 @@
               "RelativeToolTip": "ClinicService.Tests\\Integration\\ApiIntegrationTests.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwCgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:00:43.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:00:43.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 97,
               "Title": "RequestValidationTests.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Models\\RequestValidationTests.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\Models\\RequestValidationTests.cs",
@@ -572,25 +1679,23 @@
               "RelativeToolTip": "ClinicService.Tests\\Models\\RequestValidationTests.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAkwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:00:02.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:00:02.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 98,
               "Title": "BaseRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Repositories\\BaseRepositoryTest.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\Repositories\\BaseRepositoryTest.cs",
               "ToolTip": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Repositories\\BaseRepositoryTest.cs",
               "RelativeToolTip": "ClinicService.Tests\\Repositories\\BaseRepositoryTest.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T16:13:18.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T16:13:18.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 99,
               "Title": "ClientRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Repositories\\ClientRepositoryTest.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\Repositories\\ClientRepositoryTest.cs",
@@ -598,12 +1703,11 @@
               "RelativeToolTip": "ClinicService.Tests\\Repositories\\ClientRepositoryTest.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAowAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T16:13:43.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T16:13:43.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 100,
               "Title": "PetRepositoryTest.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\Repositories\\PetRepositoryTest.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\Repositories\\PetRepositoryTest.cs",
@@ -611,12 +1715,11 @@
               "RelativeToolTip": "ClinicService.Tests\\Repositories\\PetRepositoryTest.cs",
               "ViewState": "AgIAAG8AAAAAAAAAAAAowDgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T16:14:38.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T16:14:38.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 101,
               "Title": "TestSettings.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\TestSettings.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\TestSettings.cs",
@@ -624,12 +1727,11 @@
               "RelativeToolTip": "ClinicService.Tests\\TestSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T18:21:40.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T18:21:40.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 102,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "ClinicService.Tests\\UnitTest1.cs",
@@ -637,12 +1739,11 @@
               "RelativeToolTip": "ClinicService.Tests\\UnitTest1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T15:59:24.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T15:59:24.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 103,
               "Title": "ClinicService.csproj",
               "DocumentMoniker": "C:\\Users\\\u041C\u044B\u0448\u044C\\Desktop\\archi\\lesson12\\ClinicService\\ClinicService\\ClinicService.csproj",
               "RelativeDocumentMoniker": "ClinicService\\ClinicService.csproj",
@@ -650,8 +1751,7 @@
               "RelativeToolTip": "ClinicService\\ClinicService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-30T17:34:24.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T17:34:24.193Z"
             }
           ]
         }

@@ -1,0 +1,119 @@
+﻿.login-container, .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-card, .register-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-header, .register-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header h1, .register-header h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.login-header p, .register-header p {
+    color: #666;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.form-check {
+    margin-bottom: 20px;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-footer, .register-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.login-footer a, .register-footer a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.text-danger {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.spinner-border {
+    margin-right: 8px;
+}

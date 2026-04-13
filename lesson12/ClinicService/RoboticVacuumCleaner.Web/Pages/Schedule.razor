@@ -1,0 +1,263 @@
+﻿@page "/schedule"
+@using RoboticVacuumCleaner.Web.Services
+@inject IRobotService RobotService
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Расписание уборок - Robot Cleaner</PageTitle>
+
+<div class="page-header">
+    <h1>Расписание уборок</h1>
+    <button class="btn btn-primary" @onclick="() => showAddModal = true">
+        <i class="fas fa-plus"></i> Создать расписание
+    </button>
+</div>
+
+<div class="schedule-container">
+    <div class="calendar-section">
+        <div class="calendar-header">
+            <button class="btn-icon" @onclick="PreviousMonth">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <h3>@currentMonth.ToString("MMMM yyyy")</h3>
+            <button class="btn-icon" @onclick="NextMonth">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="calendar-grid">
+            <div class="calendar-weekdays">
+                @foreach (var day in weekDays)
+                {
+                    <div class="weekday">@day</div>
+                }
+            </div>
+            <div class="calendar-days">
+                @foreach (var day in calendarDays)
+                {
+                    <div class="calendar-day @(day.Month != currentMonth.Month ? "other-month" : "") 
+                                           @(day.Date == DateTime.Today ? "today" : "")
+                                           @(HasScheduleOnDay(day) ? "has-schedule" : "")"
+                         @onclick="() => SelectDate(day)">
+                        <div class="day-number">@day.Day</div>
+                        @if (HasScheduleOnDay(day))
+                        {
+                            <div class="schedule-indicator"></div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    
+    <div class="schedules-list">
+        <h3>Активные расписания</h3>
+        @if (schedules.Any())
+        {
+            @foreach (var schedule in schedules)
+            {
+                <div class="schedule-card">
+                    <div class="schedule-header">
+                        <div class="schedule-time">
+                            <i class="fas fa-clock"></i>
+                            <span>@schedule.Time.ToString(@"hh\:mm")</span>
+                        </div>
+                        <div class="schedule-switch">
+                            <label class="switch">
+                                <input type="checkbox" @bind="schedule.IsEnabled" @onchange="() => ToggleSchedule(schedule)" />
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="schedule-days">
+                        @foreach (var day in GetDaysOfWeek(schedule.DaysOfWeek))
+                        {
+                            <span class="day-badge">@day</span>
+                        }
+                    </div>
+                    <div class="schedule-rooms">
+                        <i class="fas fa-home"></i>
+                        <span>@GetRoomNames(schedule.RoomsToClean)</span>
+                    </div>
+                    <div class="schedule-actions">
+                        <button class="btn-icon" @onclick="() => EditSchedule(schedule)">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="btn-icon danger" @onclick="() => DeleteSchedule(schedule.ScheduleId)">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="empty-state-small">
+                <i class="fas fa-calendar-alt"></i>
+                <p>Нет активных расписаний</p>
+            </div>
+        }
+    </div>
+</div>
+
+@if (showAddModal)
+{
+    <div class="modal-overlay">
+        <div class="modal modal-lg">
+            <div class="modal-header">
+                <h2>Создание расписания</h2>
+                <button class="close-btn" @onclick="() => showAddModal = false">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Время уборки</label>
+                        <input type="time" class="form-control" @bind="newSchedule.Time" />
+                    </div>
+                    <div class="form-group">
+                        <label>Режим уборки</label>
+                        <select class="form-control" @bind="newSchedule.CleaningMode">
+                            <option value="Silent">Тихий</option>
+                            <option value="Normal">Обычный</option>
+                            <option value="Turbo">Турбо</option>
+                            <option value="Max">Максимум</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Дни недели</label>
+                    <div class="days-checkboxes">
+                        @foreach (var day in weekDaysFull)
+                        {
+                            <label class="checkbox-label">
+                                <input type="checkbox" value="@day.Value" @bind="selectedDays" />
+                                <span>@day.Name</span>
+                            </label>
+                        }
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Комнаты для уборки</label>
+                    <div class="rooms-checkboxes">
+                        @foreach (var room in rooms)
+                        {
+                            <label class="checkbox-label">
+                                <input type="checkbox" value="@room.RoomId" @bind="selectedRooms" />
+                                <span>@room.Name</span>
+                            </label>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" @onclick="() => showAddModal = false">Отмена</button>
+                <button class="btn btn-primary" @onclick="CreateSchedule">Создать</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private List<Schedule> schedules = new();
+    private List<Room> rooms = new();
+    private DateTime currentMonth = DateTime.Today;
+    private List<DateTime> calendarDays = new();
+    private bool showAddModal = false;
+    private Schedule newSchedule = new();
+    private List<int> selectedDays = new();
+    private List<int> selectedRooms = new();
+    
+    private readonly string[] weekDays = { "Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс" };
+    private readonly List<(string Name, int Value)> weekDaysFull = new()
+    {
+        ("Понедельник", 1), ("Вторник", 2), ("Среда", 3), ("Четверг", 4),
+        ("Пятница", 5), ("Суббота", 6), ("Воскресенье", 0)
+    };
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+        GenerateCalendar();
+    }
+    
+    private async Task LoadData()
+    {
+        schedules = await RobotService.GetSchedulesAsync();
+        rooms = await RobotService.GetRoomsAsync();
+    }
+    
+    private void GenerateCalendar()
+    {
+        calendarDays.Clear();
+        var firstDayOfMonth = new DateTime(currentMonth.Year, currentMonth.Month, 1);
+        var startDate = firstDayOfMonth.AddDays(-(int)firstDayOfMonth.DayOfWeek + 1);
+        
+        for (int i = 0; i < 42; i++)
+        {
+            calendarDays.Add(startDate.AddDays(i));
+        }
+    }
+    
+    private void PreviousMonth()
+    {
+        currentMonth = currentMonth.AddMonths(-1);
+        GenerateCalendar();
+    }
+    
+    private void NextMonth()
+    {
+        currentMonth = currentMonth.AddMonths(1);
+        GenerateCalendar();
+    }
+    
+    private bool HasScheduleOnDay(DateTime date)
+    {
+        return schedules.Any(s => s.IsEnabled && s.DaysOfWeek.Contains((int)date.DayOfWeek));
+    }
+    
+    private void SelectDate(DateTime date)
+    {
+        // Handle date selection
+    }
+    
+    private List<string> GetDaysOfWeek(string daysOfWeekJson)
+    {
+        var days = System.Text.Json.JsonSerializer.Deserialize<List<int>>(daysOfWeekJson) ?? new();
+        return days.Select(d => weekDaysFull.FirstOrDefault(w => w.Value == d).Name ?? "").ToList();
+    }
+    
+    private string GetRoomNames(string roomsJson)
+    {
+        var roomIds = System.Text.Json.JsonSerializer.Deserialize<List<int>>(roomsJson) ?? new();
+        var roomNames = rooms.Where(r => roomIds.Contains(r.RoomId)).Select(r => r.Name);
+        return string.Join(", ", roomNames);
+    }
+    
+    private async Task ToggleSchedule(Schedule schedule)
+    {
+        await RobotService.UpdateScheduleAsync(schedule);
+    }
+    
+    private async Task CreateSchedule()
+    {
+        newSchedule.DaysOfWeek = System.Text.Json.JsonSerializer.Serialize(selectedDays);
+        newSchedule.RoomsToClean = System.Text.Json.JsonSerializer.Serialize(selectedRooms);
+        newSchedule.RobotId = 1; 
+        
+        await RobotService.CreateScheduleAsync(newSchedule);
+        showAddModal = false;
+        await LoadData();
+    }
+    
+    private async Task DeleteSchedule(int scheduleId)
+    {
+        await RobotService.DeleteScheduleAsync(scheduleId);
+        await LoadData();
+    }
+    
+    private void EditSchedule(Schedule schedule)
+    {
+        
+    }
+}

@@ -1,0 +1,143 @@
+﻿@page "/robots"
+@using RoboticVacuumCleaner.Web.Services
+@inject IRobotService RobotService
+
+<PageTitle>Мои роботы - Robot Cleaner</PageTitle>
+
+<div class="page-header">
+    <h1>Мои роботы</h1>
+    <button class="btn btn-primary" @onclick="() => showAddModal = true">
+        <i class="fas fa-plus"></i> Добавить робота
+    </button>
+</div>
+
+@if (robots.Any())
+{
+    <div class="robots-list">
+        @foreach (var robot in robots)
+        {
+            <div class="robot-item">
+                <div class="robot-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="robot-details">
+                    <div class="robot-name">@robot.Name</div>
+                    <div class="robot-model">@robot.Model</div>
+                    <div class="robot-serial">SN: @robot.SerialNumber</div>
+                </div>
+                <div class="robot-stats">
+                    <div class="stat">
+                        <i class="fas fa-battery-@GetBatteryIcon(robot.BatteryLevel)"></i>
+                        <span>@robot.BatteryLevel%</span>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-microchip"></i>
+                        <span>@robot.FirmwareVersion</span>
+                    </div>
+                </div>
+                <div class="robot-actions">
+                    <button class="btn-icon" @onclick="() => EditRobot(robot)">
+                        <i class="fas fa-edit"></i>
+                    </button>
+                    <button class="btn-icon danger" @onclick="() => DeleteRobot(robot.RobotId)">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="empty-state">
+        <i class="fas fa-robot fa-4x"></i>
+        <h3>Нет добавленных роботов</h3>
+        <p>Нажмите кнопку "Добавить робота" чтобы начать</p>
+    </div>
+}
+
+@if (showAddModal)
+{
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Добавить робота</h2>
+                <button class="close-btn" @onclick="() => showAddModal = false">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Серийный номер</label>
+                    <input type="text" class="form-control" @bind="newRobot.SerialNumber" />
+                </div>
+                <div class="form-group">
+                    <label>MAC адрес</label>
+                    <input type="text" class="form-control" @bind="newRobot.MacAddress" />
+                </div>
+                <div class="form-group">
+                    <label>Модель</label>
+                    <input type="text" class="form-control" @bind="newRobot.Model" />
+                </div>
+                <div class="form-group">
+                    <label>Имя робота</label>
+                    <input type="text" class="form-control" @bind="newRobot.Name" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" @onclick="() => showAddModal = false">Отмена</button>
+                <button class="btn btn-primary" @onclick="AddRobot">Добавить</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private List<Robot> robots = new();
+    private bool showAddModal = false;
+    private Robot newRobot = new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadRobots();
+    }
+    
+    private async Task LoadRobots()
+    {
+        robots = await RobotService.GetRobotsAsync();
+    }
+    
+    private async Task AddRobot()
+    {
+        await RobotService.CreateRobotAsync(newRobot);
+        showAddModal = false;
+        newRobot = new();
+        await LoadRobots();
+    }
+    
+    private async Task DeleteRobot(int robotId)
+    {
+        if (await Confirm("Удалить робота?", "Это действие нельзя отменить"))
+        {
+            await RobotService.DeleteRobotAsync(robotId);
+            await LoadRobots();
+        }
+    }
+    
+    private void EditRobot(Robot robot)
+    {
+        
+    }
+    
+    private string GetBatteryIcon(int level) => level switch
+    {
+        >= 75 => "full",
+        >= 50 => "three-quarters",
+        >= 25 => "half",
+        >= 10 => "quarter",
+        _ => "empty"
+    };
+    
+    private async Task<bool> Confirm(string title, string message)
+    {
+        return await Task.FromResult(true); 
+    }
+}

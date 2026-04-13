@@ -1,0 +1,106 @@
+﻿@page "/register"
+@using RoboticVacuumCleaner.Web.Models
+@using RoboticVacuumCleaner.Web.Services
+@inject IAuthService AuthService
+@inject NavigationManager Navigation
+
+<PageTitle>Регистрация - Robot Cleaner</PageTitle>
+
+<div class="register-container">
+    <div class="register-card">
+        <div class="register-header">
+            <h1>Регистрация</h1>
+            <p>Создайте аккаунт для управления роботом-пылесосом</p>
+        </div>
+        
+        <EditForm Model="@registerModel" OnValidSubmit="@HandleRegister">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            
+            <div class="form-group">
+                <label for="firstName">Имя</label>
+                <InputText id="firstName" class="form-control" @bind-Value="registerModel.FirstName" />
+                <ValidationMessage For="@(() => registerModel.FirstName)" />
+            </div>
+            
+            <div class="form-group">
+                <label for="lastName">Фамилия</label>
+                <InputText id="lastName" class="form-control" @bind-Value="registerModel.LastName" />
+                <ValidationMessage For="@(() => registerModel.LastName)" />
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <InputText id="email" type="email" class="form-control" @bind-Value="registerModel.Email" />
+                <ValidationMessage For="@(() => registerModel.Email)" />
+            </div>
+            
+            <div class="form-group">
+                <label for="phoneNumber">Телефон (опционально)</label>
+                <InputText id="phoneNumber" class="form-control" @bind-Value="registerModel.PhoneNumber" />
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <InputText id="password" type="password" class="form-control" @bind-Value="registerModel.Password" />
+                <ValidationMessage For="@(() => registerModel.Password)" />
+                <small class="form-text text-muted">Пароль должен содержать минимум 6 символов</small>
+            </div>
+            
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <div class="alert alert-danger">@errorMessage</div>
+            }
+            
+            @if (isLoading)
+            {
+                <button class="btn btn-primary btn-block" disabled>
+                    <span class="spinner-border spinner-border-sm"></span>
+                    Регистрация...
+                </button>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-primary btn-block">Зарегистрироваться</button>
+            }
+        </EditForm>
+        
+        <div class="register-footer">
+            <p>Уже есть аккаунт? <a href="/login">Войти</a></p>
+        </div>
+    </div>
+</div>
+
+@code {
+    private RegisterModel registerModel = new();
+    private string errorMessage = string.Empty;
+    private bool isLoading = false;
+    
+    private async Task HandleRegister()
+    {
+        isLoading = true;
+        errorMessage = string.Empty;
+        
+        try
+        {
+            var result = await AuthService.RegisterAsync(registerModel);
+            
+            if (result.Success)
+            {
+                Navigation.NavigateTo("/login?registered=true");
+            }
+            else
+            {
+                errorMessage = result.Message ?? "Registration failed. Please try again.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"An error occurred: {ex.Message}";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

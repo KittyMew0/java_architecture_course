@@ -1,0 +1,222 @@
+﻿@page "/dashboard"
+@using RoboticVacuumCleaner.Web.Services
+@inject IRobotService RobotService
+@inject NavigationManager Navigation
+
+<PageTitle>Дашборд - Robot Cleaner</PageTitle>
+
+<div class="dashboard">
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="stat-info">
+                <div class="stat-value">@robots.Count</div>
+                <div class="stat-label">Активных роботов</div>
+            </div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="stat-info">
+                <div class="stat-value">@totalCleaningHours ч</div>
+                <div class="stat-label">Всего уборок</div>
+            </div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-broom"></i>
+            </div>
+            <div class="stat-info">
+                <div class="stat-value">@totalArea м²</div>
+                <div class="stat-label">Убрано площади</div>
+            </div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon">
+                <i class="fas fa-calendar-week"></i>
+            </div>
+            <div class="stat-info">
+                <div class="stat-value">@cleaningCount</div>
+                <div class="stat-label">Уборок за неделю</div>
+            </div>
+        </div>
+    </div>
+    
+    @if (robots.Any())
+    {
+        <div class="robots-section">
+            <h2>Мои роботы</h2>
+            <div class="robots-grid">
+                @foreach (var robot in robots)
+                {
+                    <div class="robot-card @GetRobotStatusClass(robot.Status)">
+                        <div class="robot-header">
+                            <i class="fas fa-robot"></i>
+                            <h3>@robot.Name</h3>
+                            <span class="status-badge @GetRobotStatusClass(robot.Status)">
+                                @GetRobotStatusText(robot.Status)
+                            </span>
+                        </div>
+                        <div class="robot-body">
+                            <div class="battery-indicator">
+                                <div class="battery-bar">
+                                    <div class="battery-level" style="width: @robot.BatteryLevel%"></div>
+                                </div>
+                                <span>Батарея: @robot.BatteryLevel%</span>
+                            </div>
+                            <div class="robot-info">
+                                <p>Модель: @robot.Model</p>
+                                <p>Версия прошивки: @robot.FirmwareVersion</p>
+                                <p>Последняя активность: @robot.LastSeenAt.ToString("dd.MM.yyyy HH:mm")</p>
+                            </div>
+                        </div>
+                        <div class="robot-actions">
+                            @if (robot.Status == RobotStatus.Cleaning)
+                            {
+                                <button class="btn btn-warning" @onclick="() => StopCleaning(robot.RobotId)">
+                                    <i class="fas fa-stop"></i> Остановить
+                                </button>
+                            }
+                            else if (robot.Status == RobotStatus.Idle)
+                            {
+                                <button class="btn btn-success" @onclick="() => StartCleaning(robot.RobotId)">
+                                    <i class="fas fa-play"></i> Запустить
+                                </button>
+                            }
+                            
+                            @if (robot.Status != RobotStatus.Charging && robot.Status != RobotStatus.Returning)
+                            {
+                                <button class="btn btn-info" @onclick="() => ReturnToDock(robot.RobotId)">
+                                    <i class="fas fa-home"></i> На базу
+                                </button>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <i class="fas fa-robot fa-4x"></i>
+            <h3>У вас пока нет роботов</h3>
+            <p>Добавьте первого робота, чтобы начать управление</p>
+            <button class="btn btn-primary" @onclick="() => Navigation.NavigateTo("/robots/add")">
+                <i class="fas fa-plus"></i> Добавить робота
+            </button>
+        </div>
+    }
+    
+    <div class="recent-sessions">
+        <h2>Последние уборки</h2>
+        <div class="sessions-list">
+            @if (recentSessions.Any())
+            {
+                <table class="table">
+                    <thead>
+                        <tr><th>Дата</th><th>Время</th><th>Площадь</th><th>Режим</th><th>Статус</th></tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var session in recentSessions)
+                        {
+                            <tr>
+                                <td>@session.StartTime.ToString("dd.MM.yyyy")</td>
+                                <td>@session.StartTime.ToString("HH:mm")</td>
+                                <td>@session.CleanedArea м²</td>
+                                <td>@GetModeText(session.Mode)</td>
+                                <td>
+                                    <span class="badge @(session.ErrorOccurred ? "badge-danger" : "badge-success")">
+                                        @(session.ErrorOccurred ? "Ошибка" : "Завершена")
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="text-muted">Нет данных об уборках</p>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Robot> robots = new();
+    private List<CleaningSession> recentSessions = new();
+    private int totalCleaningHours = 0;
+    private double totalArea = 0;
+    private int cleaningCount = 0;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadData();
+    }
+    
+    private async Task LoadData()
+    {
+        robots = await RobotService.GetRobotsAsync();
+        var sessions = await RobotService.GetCleaningHistoryAsync();
+        recentSessions = sessions.Take(10).ToList();
+        
+        totalCleaningHours = (int)sessions.Sum(s => s.DurationSeconds ?? 0) / 3600;
+        totalArea = sessions.Sum(s => s.CleanedArea);
+        cleaningCount = sessions.Count(s => s.StartTime > DateTime.UtcNow.AddDays(-7));
+    }
+    
+    private async Task StartCleaning(int robotId)
+    {
+        await RobotService.StartCleaningAsync(robotId);
+        await LoadData();
+    }
+    
+    private async Task StopCleaning(int robotId)
+    {
+        await RobotService.StopCleaningAsync(robotId);
+        await LoadData();
+    }
+    
+    private async Task ReturnToDock(int robotId)
+    {
+        await RobotService.ReturnToDockAsync(robotId);
+        await LoadData();
+    }
+    
+    private string GetRobotStatusClass(RobotStatus status) => status switch
+    {
+        RobotStatus.Cleaning => "status-cleaning",
+        RobotStatus.Charging => "status-charging",
+        RobotStatus.Idle => "status-idle",
+        RobotStatus.Error => "status-error",
+        _ => "status-offline"
+    };
+    
+    private string GetRobotStatusText(RobotStatus status) => status switch
+    {
+        RobotStatus.Cleaning => "Уборка",
+        RobotStatus.Charging => "Зарядка",
+        RobotStatus.Idle => "Ожидание",
+        RobotStatus.Error => "Ошибка",
+        RobotStatus.Returning => "Возврат",
+        RobotStatus.Paused => "Пауза",
+        RobotStatus.Updating => "Обновление",
+        _ => "Оффлайн"
+    };
+    
+    private string GetModeText(CleaningMode mode) => mode switch
+    {
+        CleaningMode.Silent => "Тихий",
+        CleaningMode.Normal => "Обычный",
+        CleaningMode.Turbo => "Турбо",
+        CleaningMode.Max => "Максимум",
+        _ => "Неизвестно"
+    };
+}

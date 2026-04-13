@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="ClinicService.Tests/ClinicService.Tests.csproj" Id="9bbc6c7b-1cc3-4ddb-8920-7c0d41728d09" />
   <Project Path="ClinicService/ClinicService.csproj" />
+  <Project Path="RoboticVacuumCleaner.Web/RoboticVacuumCleaner.Web.csproj" Id="873be8da-a28c-4062-9c3d-e38f7db0cfc7" />
+  <Project Path="RoboticVacuumCleaner/RoboticVacuumCleaner.Server.csproj" Id="65b1171d-6aeb-4370-9d9f-12353275a4ba" />
 </Solution>
