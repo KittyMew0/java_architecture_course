@@ -1,4 +1,4 @@
-﻿namespace RoboticVacuumCleaner.Server.DTOs
+﻿namespace RoboticVacuumCleaner.Server.DTOs // Data Transfer Object between server and client
 {
     public class UserDto
     {

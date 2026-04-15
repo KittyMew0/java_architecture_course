@@ -1,4 +1,5 @@
 ﻿using RoboticVacuumCleaner.Server.DTOs;
+using RoboticVacuumCleaner.Server.DTOs.Requests;
 
 namespace RoboticVacuumCleaner.Server.Services.Interfaces
 {

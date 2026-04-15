@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using RoboticVacuumCleaner.Server.DTOs;
+using RoboticVacuumCleaner.Server.DTOs.Requests;
 using RoboticVacuumCleaner.Server.Models;
 using RoboticVacuumCleaner.Server.Services.Interfaces;
 using System.Security.Claims;

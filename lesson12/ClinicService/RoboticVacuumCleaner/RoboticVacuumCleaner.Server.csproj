@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="DTOs\RegisterRequest.cs" />
+    <None Include="DTOs\Requests\RegisterRequest.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RoboticVacuumCleaner.Server.DTOs
+namespace RoboticVacuumCleaner.Server.DTOs.Requests
 {
     public class LoginRequest
     {

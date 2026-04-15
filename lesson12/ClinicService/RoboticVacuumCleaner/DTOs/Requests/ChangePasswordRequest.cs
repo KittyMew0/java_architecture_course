@@ -1,15 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RoboticVacuumCleaner.Server.DTOs
+namespace RoboticVacuumCleaner.Server.DTOs.Requests
 {
-    public class ResetPasswordRequest
+    public class ChangePasswordRequest
     {
         [Required]
-        public string Token { get; set; } = string.Empty;
-
-        [Required]
-        [EmailAddress]
-        public string Email { get; set; } = string.Empty;
+        public string CurrentPassword { get; set; } = string.Empty;
 
         [Required]
         [MinLength(6)]

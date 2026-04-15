@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using RoboticVacuumCleaner.Server.Data;
 using System.IdentityModel.Tokens.Jwt;
 using RoboticVacuumCleaner.Server.Services.Interfaces;
+using RoboticVacuumCleaner.Server.DTOs.Requests;
 
 namespace RoboticVacuumCleaner.Server.Services
 {

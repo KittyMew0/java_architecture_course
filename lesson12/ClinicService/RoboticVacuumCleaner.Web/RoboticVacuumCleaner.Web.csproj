@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RobotCleaner.Server\RobotCleaner.Server.csproj" />
+    <ProjectReference Include="..\RobotCleaner.Server\RoboticVacuumCleaner.Server.csproj" />
   </ItemGroup>
 
 </Project>

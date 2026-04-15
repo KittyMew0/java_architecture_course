@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Мышь\\Desktop\\archi\\lesson12\\ClinicService\\RobotCleaner.Server\\RobotCleaner.Server.csproj": {
-                "projectPath": "C:\\Users\\Мышь\\Desktop\\archi\\lesson12\\ClinicService\\RobotCleaner.Server\\RobotCleaner.Server.csproj"
+              "C:\\Users\\Мышь\\Desktop\\archi\\lesson12\\ClinicService\\RobotCleaner.Server\\RoboticVacuumCleaner.Server.csproj": {
+                "projectPath": "C:\\Users\\Мышь\\Desktop\\archi\\lesson12\\ClinicService\\RobotCleaner.Server\\RoboticVacuumCleaner.Server.csproj"
               }
             }
           }
